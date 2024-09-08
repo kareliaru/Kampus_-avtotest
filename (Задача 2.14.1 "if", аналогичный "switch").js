@@ -1,12 +1,24 @@
-//  замена цикла for на While
+let brouser = "Opera"
 
+switch (browser) {
+  case 'Edge':
+    alert( "You've got the Edge!" );
+    break;
 
-for (let i = 0; i < 3; i++) {
-    console.log( `number ${i}!` );
-  }
+  case 'Chrome':
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    alert( 'Okay we support these browsers too' );
+    break;
 
-let i = 0;
-while (i < 3){
-    console.log( `number ${i}!`)
-    i++;
+  default:
+    alert( 'We hope that this page looks ok!' );
 }
+
+
+if (brouser == "Edge")
+  console.log('Okay we support these browsers too')
+if (brouser == 'Chrome'|| brouser =='Firefox'|| brouser == 'Safari'|| brouser == 'Opera')
+  console.log('Okay we support these browsers too')
+else console.log('We hope that this page looks ok!')
