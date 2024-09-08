@@ -1,4 +1,4 @@
-let brouser = "Opera"
+let browser = 'Opera'
 
 switch (browser) {
   case 'Edge':
@@ -9,16 +9,16 @@ switch (browser) {
   case 'Firefox':
   case 'Safari':
   case 'Opera':
-    alert( 'Okay we support these browsers too' );
+    alert( 'Okay we support these browsers too' ); // выведет эту строку
     break;
 
   default:
     alert( 'We hope that this page looks ok!' );
 }
 
-
-if (brouser == "Edge")
+//----------------------------------------------------------
+if (browser == 'Edge')
   console.log('Okay we support these browsers too')
-if (brouser == 'Chrome'|| brouser =='Firefox'|| brouser == 'Safari'|| brouser == 'Opera')
-  console.log('Okay we support these browsers too')
+if (browser == 'Chrome'|| browser =='Firefox'|| browser == 'Safari'|| browser == 'Opera')
+  console.log('Okay we support these browsers too') //выведет эту строку
 else console.log('We hope that this page looks ok!')
