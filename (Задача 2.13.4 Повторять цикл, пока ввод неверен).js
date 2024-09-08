@@ -6,5 +6,7 @@ while (true) {
         alert(`Ваше число: ${value}`);
     if (value < 100)
         alert ("Введите число > 100");
-    if (!value) break cicle; 
+    if (!value)
+        alert ("Вы не ввели число") 
+            break cicle; 
   }
