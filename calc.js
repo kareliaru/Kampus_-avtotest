@@ -3,7 +3,7 @@ let calculator = {
       return a + b;
     },
   
-    mul() {
+    mult() {
       return a * b;
     },
   
